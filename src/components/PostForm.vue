@@ -6,6 +6,7 @@
     >
       <h4 class="text-red-500 font-bold">Создание поста</h4>
       <my-input
+      v-focus
         v-model="post.title"
         type="text"
         placeholder="Название"
